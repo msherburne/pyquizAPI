@@ -58,6 +58,7 @@ questions = client.get_questions()
 | difficulty | string | Get the questions for a specific difficulty only |
 | tags | [string] | Specify a list of tags that you want the questions to belong to |
 | limit | int | Limit the number of questions returned |
+
 [Parameter Reference](https://quizapi.io/docs/1.0/parameters)
 
 ### Creating and using custom configuration
