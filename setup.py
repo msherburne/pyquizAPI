@@ -1,17 +1,17 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 with open("README.md", "r", encoding="utf-8") as readme:
     description = readme.read()
 
 setup(
     name=  "pyquizAPI",
-    version = "0.0.2",
+    version = "0.0.5",
     author="msherburne",
     license="MIT",
     description="API Client Wrapper for QuizAPI.io",
     long_description=description,
     long_description_content_type="text/markdown",
-    packages= find_packages(include=['pyquizAPI','pyquizAPI.*']),
+    packages= ['pyquizAPI'],
     install_requires=[
         'requests'
     ],
