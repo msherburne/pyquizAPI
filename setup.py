@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as readme:
 
 setup(
     name=  "pyquizAPI",
-    version = "0.0.1",
+    version = "0.0.2",
     author="msherburne",
     license="MIT",
     description="API Client Wrapper for QuizAPI.io",
