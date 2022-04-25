@@ -1,2 +1,2 @@
-from client import QuizClient
+from .client import QuizClient
 

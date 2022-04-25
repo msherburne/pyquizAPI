@@ -12,7 +12,14 @@ def make_request(api_key, url, config=None):
     headers = {
         "X-Api-Key": api_key
     }
-    
     response = r.get(url=url, data=data, headers=headers)
 
-    return response, response.json(), response.status_code
+    content = response.json()
+    results = []
+    if data["limit"]:
+        for i in range(data['limit']):
+            results.append(content[i])
+            
+
+
+    return response, results, response.status_code
