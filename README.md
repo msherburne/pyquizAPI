@@ -9,7 +9,7 @@ pip install pyquizAPI
 ```
 
 ## How to Use
-To get an API key go to [here]("https://quizapi.io/") and create an account
+To get an API key go to [here](https://quizapi.io/) and create an account
 ```python
 from pyquizAPI import QuizClient
 
